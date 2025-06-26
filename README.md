@@ -23,7 +23,7 @@ day-planner/
 
 1. Clone or download the repository:
 
-git clone 
+git clone https://github.com/Prashanthi61/Brainwave_Matrix_Intern.git
 
 
 2. Open day.html in your browser.
