@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.date-picker-container, .input-container, .daily-checklist-container, .notes-container {
+    margin-bottom: 20px;
+}
+
+#task-input, #notes-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#add-task-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#add-task-btn:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e3f2fd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.checklist-item {
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 20px 0;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
