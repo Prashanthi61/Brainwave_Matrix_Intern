@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1 class="header">Daily Planner</h1>
+            <div class="date-picker-container">
+                <label for="planner-date">Select Date:</label>
+                <input type="date" id="planner-date">
+            </div>
+        </div>
+        <div class="date-container">
+            <h2 id="current-date"></h2>
+        </div>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Enter a new task...">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <div class="task-list-container">
+            <ul id="task-list">
+                </ul>
+        </div>
+        
+        <hr class="divider">
+
+        <div class="daily-checklist-container">
+            <h2>Daily Checklist</h2>
+            <div class="checklist-item">
+                <input type="checkbox" id="breakfast-checkbox">
+                <label for="breakfast-checkbox">Breakfast</label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox" id="lunch-checkbox">
+                <label for="lunch-checkbox">Lunch</label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox" id="dinner-checkbox">
+                <label for="dinner-checkbox">Dinner</label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox" id="exercise-checkbox">
+                <label for="exercise-checkbox">Exercise</label>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="notes-container">
+            <h2>Notes</h2>
+            <textarea id="notes-text" placeholder="Write your notes here..."></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
